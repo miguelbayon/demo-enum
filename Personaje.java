@@ -4,24 +4,24 @@ public class Personaje
 	private int edad;
     	private TipoPersonaje clase;  //Guerrero, Curandero o Mago
 
-    	public Personaje(int vida , int edad , TipoPersonaje clase){
+    	public Personaje(int vida , int edad , TipoPersonaje clase) {
 		this.vida = vida;
 		this.edad = edad;
 		this.clase = clase;
     	}
 
-    	public int getVida(){
+    	public int getVida() {
 		return vida;
     	}
 
-    	public int getEdad(){
+    	public int getEdad() {
     		return edad;
 
     	}
 
-		public String getClase() {
-			return clase.toString();
-		}
+	public String getClase() {
+		return clase.toString();
+	}
 		
 	public String toString() {
 		return "Vida: " + getVida() + ", edad: " + getEdad() + ", clase: " + clase;
