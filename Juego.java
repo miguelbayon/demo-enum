@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+
 public class Juego
 {
 	private ArrayList<Personaje> personajes;
@@ -9,18 +10,14 @@ public class Juego
 		Personaje personaje2 = new Personaje(3, 30, TipoPersonaje.CURANDERO);
 		personajes.add(personaje1);
 		personajes.add(personaje2);
-	    }
-	    
-    public void mostrarPersonajes() {
-    	String cadenaADevovler = "";	
-    	for(Personaje personajeActual : personajes){
+	}
+	
+	public void mostrarPersonajes() {
+		String cadenaADevovler = "";	
+		for(Personaje personajeActual : personajes){
 			cadenaADevovler += personajeActual + "\n";
-    	}
-    	System.out.println(cadenaADevovler);
-    
-    }
-
-    
-    
-    
+		}
+		System.out.println(cadenaADevovler);
+	
+	}
 }
