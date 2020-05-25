@@ -18,7 +18,6 @@ public class Juego
 			cadenaADevovler += personajeActual + "\n";
 		}
 		System.out.println(cadenaADevovler);
-	
 	}
 }
 
